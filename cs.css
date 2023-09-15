@@ -1,0 +1,40 @@
+.container {
+  background-image: url("https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/9309/1569309-h-779408bc7138");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+.row {
+  display: flex;
+  overflow-y: hidden;
+}
+
+.row > img {
+  margin: 8px;
+  transition: transform 0.5s;
+}
+
+.row > img:hover {
+  transform: scale(1.1);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.row {
+  display: flex;
+  overflow-y: hidden;
+}
+
+.row > img {
+  margin: 8px;
+  transition: transform 0.5s;
+}
+
+.row > img:hover {
+  transform: scale(1.1);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
